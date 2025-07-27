@@ -48,7 +48,8 @@ HTML5
 
 CSS3 (including Flexbox and backdrop-filter)
 
-🖼️ [Preview](pre.png)
+🖼️ Preview
+[Preview](pre.png)
 
 ✏️ Customization Tips
 Change background image in CSS or replace background.jpg in assets/
