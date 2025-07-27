@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  background: url('bg.jpg') no-repeat center center/cover;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.profile-card {
+   width: 300px;
+   background-color: rgb(255, 246, 246);
+   border-radius: 10px;
+   margin: 20px auto;
+   padding: 30px 30px;
+    text-align: center;
+    box-shadow: 20px 20px 20px rgba(243, 14, 14, 0.1);
+
+}
+.profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 2px solid rgb(238, 8, 8);
+}
+.login {
+    /* background-color: rgb(205, 189, 189); */
+     background: rgba(255, 255, 255, 0.1); /* transparent white */
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding: 50px 30px;
+    text-align: center;
+    box-shadow: 20px 20px 20px rgba(243, 14, 14, 0.1);
+    backdrop-filter: blur(8px); /* 🧊 key to glass effect */
+}
+.input-group input[type="text"],
+.input-group input[type="password"] {
+  width: 100%;
+  padding: 8px 5px;
+  margin-bottom: 20px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.login-btn {
+  background-color: #1e1e1e;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #0ae340;
+}
+.cheakbox {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    gap: 8px;
+}
